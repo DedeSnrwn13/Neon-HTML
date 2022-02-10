@@ -30,6 +30,12 @@
   font-size: 14px;
   line-height: 20px;
   margin-left: 80px;
+  transition: 0.25s ease-in-out;
+}
+
+.navbar .btn-sign-in:hover {
+  opacity: 0.9;
+  transition: 0.25s ease-in-out;
 }
 
 /*  */
@@ -83,11 +89,17 @@
 
 .header .btn-download {
   background: #ffffff;
-  border-radius: 32px;
+  border-radius: 100px;
   padding-left: 23px;
   padding-right: 23px;
   padding-top: 16px;
   padding-bottom: 16px;
+  transition: 0.25s ease-in-out;
+}
+
+.header .btn-download:hover {
+  opacity: 0.9;
+  transition: 0.25s ease-in-out;
 }
 
 .header a.btn-download {
@@ -217,11 +229,17 @@
 
 .faq .bottom .btn-download {
   background: #631afd;
-  border-radius: 32px;
+  border-radius: 100px;
   padding-left: 23px;
   padding-right: 23px;
   padding-top: 16px;
   padding-bottom: 16px;
+  transition: 0.25s ease-in-out;
+}
+
+.faq .bottom .btn-download:hover {
+  transition: 0.25s ease-in-out;
+  opacity: 0.9;
 }
 
 .faq .bottom .btn-ios {
@@ -231,6 +249,12 @@
   padding-right: 23px;
   padding-top: 16px;
   padding-bottom: 16px;
+  transition: 0.25s ease-in-out;
+}
+
+.faq .bottom .btn-ios:hover {
+  transition: 0.25s ease-in-out;
+  opacity: 0.9;
 }
 
 .faq .bottom a.btn-download {
@@ -859,7 +883,7 @@ footer .left .policy {
 
   .faq .bottom .btn-download {
     background: #631afd;
-    border-radius: 32px;
+    border-radius: 100px;
     padding-left: 23px;
     padding-right: 23px;
     padding-top: 16px;
@@ -1149,7 +1173,7 @@ footer .left .policy {
 
   .header .btn-download {
     background: #ffffff;
-    border-radius: 32px;
+    border-radius: 100px;
     padding-left: 38px;
     padding-right: 38px;
     padding-top: 20px;
