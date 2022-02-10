@@ -543,9 +543,11 @@ footer .left .policy {
   /* Header */
   .header {
     height: 592px;
+    width: 100%;
     background-image: url('/assets/images/img/bg-mobile.png') !important;
-    background-size: cover;
+    background-size: 100% 100%;
     margin-top: -1px;
+    background-color: transparent;
   }
 
   .header .hero-md {
