@@ -1044,11 +1044,8 @@ footer .left .policy {
 }
 
 @media (min-width: 1728px) {
-  .header {
-    padding-top: 80px !important;
-  }
   .header .img-header {
-    width: 100%;
-    top: -280px;
+    width: 95%;
+    top: -285px;
   }
 }
